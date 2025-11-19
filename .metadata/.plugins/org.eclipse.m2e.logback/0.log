@@ -86,3 +86,104 @@
 2025-11-19 14:51:18,834 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
 2025-11-19 14:51:18,840 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
 2025-11-19 14:51:18,844 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/RequestManager/src/test/resources
+2025-11-19 15:05:30,048 [Worker-22: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT @ /home/slarge/Documents/Workspace_SOA/RequestManager/pom.xml.
+2025-11-19 15:05:32,624 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-19 15:05:32,632 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:05:32,650 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/RequestManager/src/test/resources
+2025-11-19 15:05:35,132 [Worker-28: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT @ /home/slarge/Documents/Workspace_SOA/RequestManager/pom.xml.
+2025-11-19 15:05:37,426 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-19 15:05:37,432 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:05:37,436 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/RequestManager/src/test/resources
+2025-11-19 15:05:38,923 [Worker-26: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:StudentManager:0.0.1-SNAPSHOT @ /home/slarge/Documents/Workspace_SOA/StudentManager/pom.xml.
+2025-11-19 15:05:40,621 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-19 15:05:40,629 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:05:40,643 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/StudentManager/src/test/resources
+2025-11-19 15:05:42,959 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:StudentManager:0.0.1-SNAPSHOT @ /home/slarge/Documents/Workspace_SOA/StudentManager/pom.xml.
+2025-11-19 15:05:45,072 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-19 15:05:45,075 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:05:45,077 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/StudentManager/src/test/resources
+2025-11-19 15:06:03,738 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT @ /home/slarge/Documents/Workspace_SOA/shDiscovery/pom.xml.
+2025-11-19 15:06:06,623 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-19 15:06:06,658 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:06:06,667 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/shDiscovery/src/test/resources
+2025-11-19 15:06:39,679 [Worker-29: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-11-19 15:06:43,505 [Worker-29: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT @ /home/slarge/Documents/Workspace_SOA/RequestManager/pom.xml.
+2025-11-19 15:06:45,532 [Worker-29: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT @ /home/slarge/Documents/Workspace_SOA/shDiscovery/pom.xml.
+2025-11-19 15:06:46,831 [Worker-29: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:StudentManager:0.0.1-SNAPSHOT @ /home/slarge/Documents/Workspace_SOA/StudentManager/pom.xml.
+2025-11-19 15:06:48,098 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RequestManager/src/main/java
+2025-11-19 15:06:48,099 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RequestManager/src/main/resources
+2025-11-19 15:06:48,100 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RequestManager/src/main/resources
+2025-11-19 15:06:48,100 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RequestManager/src/test/java
+2025-11-19 15:06:48,101 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RequestManager/src/test/resources
+2025-11-19 15:06:48,278 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /shDiscovery/src/main/java
+2025-11-19 15:06:48,278 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /shDiscovery/src/main/resources
+2025-11-19 15:06:48,278 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /shDiscovery/src/main/resources
+2025-11-19 15:06:48,278 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /shDiscovery/src/test/java
+2025-11-19 15:06:48,278 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /shDiscovery/src/test/resources
+2025-11-19 15:06:48,486 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StudentManager/src/main/java
+2025-11-19 15:06:48,486 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StudentManager/src/main/resources
+2025-11-19 15:06:48,486 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StudentManager/src/main/resources
+2025-11-19 15:06:48,486 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StudentManager/src/test/java
+2025-11-19 15:06:48,486 [Worker-29: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StudentManager/src/test/resources
+2025-11-19 15:06:49,302 [Worker-29: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 3 poms: local refresh takes 0,00 sec, refresh facades takes 7,00 sec, update config takes 0,00 sec 
+2025-11-19 15:06:49,608 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-19 15:06:49,613 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:06:49,614 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/RequestManager/src/test/resources
+2025-11-19 15:06:49,791 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-19 15:06:49,794 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:06:49,796 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/StudentManager/src/test/resources
+2025-11-19 15:06:50,239 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-19 15:06:50,251 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:06:50,254 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/shDiscovery/src/test/resources
+2025-11-19 15:07:14,404 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-19 15:07:14,415 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:07:14,420 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/RequestManager/src/test/resources
+2025-11-19 15:07:24,672 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT @ /home/slarge/Documents/Workspace_SOA/RequestManager/pom.xml.
+2025-11-19 15:07:26,809 [Worker-32: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier  to /shDiscovery/target/classes
+2025-11-19 15:07:27,257 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:07:27,258 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:07:27,259 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/RequestManager/src/test/resources
+2025-11-19 15:07:27,829 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-19 15:07:27,833 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:07:27,834 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/RequestManager/src/test/resources
+2025-11-19 15:07:29,971 [Worker-28: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT @ /home/slarge/Documents/Workspace_SOA/RequestManager/pom.xml.
+2025-11-19 15:07:32,045 [Worker-28: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier  to /shDiscovery/target/classes
+2025-11-19 15:07:32,411 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:07:32,412 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:07:32,413 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/RequestManager/src/test/resources
+2025-11-19 15:07:45,146 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-19 15:07:45,152 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:07:45,154 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/RequestManager/src/test/resources
+2025-11-19 15:08:44,345 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:StudentManager:0.0.1-SNAPSHOT @ /home/slarge/Documents/Workspace_SOA/StudentManager/pom.xml.
+2025-11-19 15:08:47,069 [Worker-30: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier  to /RequestManager/target/classes
+2025-11-19 15:08:47,071 [Worker-30: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier  to /shDiscovery/target/classes
+2025-11-19 15:08:47,523 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:08:47,524 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:08:47,525 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/StudentManager/src/test/resources
+2025-11-19 15:08:49,466 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:StudentManager:0.0.1-SNAPSHOT @ /home/slarge/Documents/Workspace_SOA/StudentManager/pom.xml.
+2025-11-19 15:08:52,387 [Worker-32: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier  to /RequestManager/target/classes
+2025-11-19 15:08:52,388 [Worker-32: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier  to /shDiscovery/target/classes
+2025-11-19 15:08:52,819 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-19 15:08:52,824 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:08:52,825 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/StudentManager/src/test/resources
+2025-11-19 15:10:19,784 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-19 15:10:19,801 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:10:19,806 [Worker-26: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/StudentManager/src/test/resources
+2025-11-19 15:10:24,674 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-19 15:10:24,682 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:10:24,684 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/RequestManager/src/test/resources
+2025-11-19 15:10:27,978 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-19 15:10:27,985 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:10:27,986 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/RequestManager/src/test/resources
+2025-11-19 15:11:45,923 [Worker-31: Launching RequestManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-19 15:11:46,046 [Worker-31: Launching RequestManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-19 15:11:46,144 [Worker-31: Launching RequestManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-19 15:12:08,011 [Worker-29: Launching StudentManagerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-19 15:12:08,025 [Worker-29: Launching StudentManagerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-19 15:12:08,029 [Worker-29: Launching StudentManagerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/StudentManager/src/test/resources
+2025-11-19 15:12:08,204 [Worker-29: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-19 15:12:08,205 [Worker-29: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-19 15:12:08,432 [Worker-29: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-19 15:12:08,432 [Worker-29: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-19 15:12:08,552 [Worker-29: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-19 15:12:08,552 [Worker-29: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
