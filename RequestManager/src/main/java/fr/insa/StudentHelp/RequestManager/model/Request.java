@@ -15,6 +15,9 @@ public class Request {
     @Enumerated(EnumType.STRING)
     private Status status;
 
+    @ElementCollection
+    private List<String> keywords;
+
     public enum Status {
         WAITING,
         IN_PROGRESS,

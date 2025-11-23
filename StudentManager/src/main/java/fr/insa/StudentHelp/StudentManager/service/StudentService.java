@@ -8,6 +8,12 @@ public class StudentService {
         return repo.save(s);
     }
 
+    public StudentDTO saveDTO(StudentDTO dto) {
+        Student s = toEntity(dto);
+        Student saved = repo.save(s);
+        return toDTO(saved);
+    }
+
     public List<Student> getAll() {
         return repo.findAll();
     }
