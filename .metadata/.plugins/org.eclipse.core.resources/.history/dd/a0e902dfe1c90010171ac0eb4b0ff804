@@ -35,7 +35,7 @@ public class RequestController {
     }
 
     @GetMapping
-    public List<Request> getAll() {
+    public List<RequestEntity> getAll() {
         return service.getRepo().findAll();
     }
 }
