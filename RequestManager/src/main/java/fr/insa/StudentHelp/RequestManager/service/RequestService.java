@@ -1,3 +1,17 @@
+package fr.insa.StudentHelp.RequestManager.service;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import fr.insa.StudentHelp.RequestManager.model.Request;
+import fr.insa.StudentHelp.RequestManager.model.RequestEntity;
+import fr.insa.StudentHelp.RequestManager.model.Student;
+import fr.insa.StudentHelp.RequestManager.repository.RequestRepository;
+
 @Service
 public class RequestService {
 
@@ -9,19 +23,27 @@ public class RequestService {
     private final String STUDENT_SERVICE_URL = "http://StudentManager/students";
 
     public Request save(Request req) {
-        return repo.save(req);
+        return getRepo().save(req);
     }
 
-    public List<StudentDTO> getAllStudents() {
-        StudentDTO[] students = restTemplate.getForObject(STUDENT_SERVICE_URL, StudentDTO[].class);
+    public List<Student> getAllStudents() {
+        Student[] students = restTemplate.getForObject(STUDENT_SERVICE_URL, Student[].class);
         return Arrays.asList(students);
     }
 
-    public List<StudentDTO> recommend(Request req) {
-        List<StudentDTO> all = getAllStudents();
+    public List<Student> recommend(Request req) {
+        List<Student> all = getAllStudents();
         return all.stream()
                 .filter(s -> s.getSkills().stream()
                         .anyMatch(req.getKeywords()::contains))
                 .toList();
     }
+
+	public RequestRepository getRepo() {
+		return repo;
+	}
+
+	public void setRepo(RequestRepository repo) {
+		this.repo = repo;
+	}
 }

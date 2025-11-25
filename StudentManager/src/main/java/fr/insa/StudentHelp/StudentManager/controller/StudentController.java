@@ -1,3 +1,19 @@
+package fr.insa.StudentHelp.StudentManager.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import fr.insa.StudentHelp.StudentManager.model.Student;
+import fr.insa.StudentHelp.StudentManager.service.StudentService;
+
 @RestController
 @RequestMapping("/students")
 public class StudentController {
@@ -17,7 +33,7 @@ public class StudentController {
 
     @GetMapping("/{id}")
     public Student get(@PathVariable Long id) {
-        return service.get(id).orElse(null);
+        return service.get(id);
     }
 
     @DeleteMapping("/{id}")
