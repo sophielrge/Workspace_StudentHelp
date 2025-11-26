@@ -1,3 +1,20 @@
+package fr.insa.StudentHelp.RequestManager.controller;
+
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import fr.insa.StudentHelp.RequestManager.model.Request;
+import fr.insa.StudentHelp.RequestManager.model.RequestEntity;
+import fr.insa.StudentHelp.RequestManager.model.Student;
+import fr.insa.StudentHelp.RequestManager.service.RequestService;
+
 @RestController
 @RequestMapping("/requests")
 public class RequestController {
@@ -9,7 +26,7 @@ public class RequestController {
     public Map<String, Object> create(@RequestBody Request req) {
         Request saved = service.save(req);
 
-        List<StudentDTO> recommended = service.recommend(req);
+        List<Student> recommended = service.recommend(req);
 
         return Map.of(
                 "request", saved,
@@ -19,6 +36,6 @@ public class RequestController {
 
     @GetMapping
     public List<Request> getAll() {
-        return service.repo.findAll();
+        return service.getRepo().findAll();
     }
 }

@@ -29,7 +29,11 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-11-19 14:47:13.790
 !MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+<<<<<<< HEAD
 !SESSION 2025-11-25 09:36:30.007 -----------------------------------------------
+=======
+!SESSION 2025-11-25 09:29:50.550 -----------------------------------------------
+>>>>>>> 2c9aca3190c9ef499ac909fc91850b6c71bf237f
 eclipse.buildId=4.33.0.20240829-0648
 java.version=22.0.2
 java.vendor=Eclipse Adoptium
@@ -37,6 +41,7 @@ BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
 
+<<<<<<< HEAD
 !ENTRY ch.qos.logback.classic 1 0 2025-11-25 09:36:32.184
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
@@ -674,6 +679,14 @@ java.lang.Exception: The project description file (.project) for 'shDiscovery' i
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:43)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 !SESSION 2025-11-25 10:00:49.653 -----------------------------------------------
+=======
+!ENTRY ch.qos.logback.classic 1 0 2025-11-25 09:29:53.877
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-25 09:30:19.465
+!MESSAGE Logback config file: /home/slarge/Documents/Workspace_SOA/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+!SESSION 2025-11-25 09:34:33.192 -----------------------------------------------
+>>>>>>> 2c9aca3190c9ef499ac909fc91850b6c71bf237f
 eclipse.buildId=4.33.0.20240829-0648
 java.version=22.0.2
 java.vendor=Eclipse Adoptium
@@ -681,6 +694,7 @@ BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
 
+<<<<<<< HEAD
 !ENTRY ch.qos.logback.classic 1 0 2025-11-25 10:00:51.482
 !MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
 
@@ -870,3 +884,28 @@ java.util.concurrent.TimeoutException
 	at org.eclipse.lsp4e.operations.hover.LSPTextHover.getHoverInfo(LSPTextHover.java:73)
 	at org.eclipse.ui.internal.genericeditor.hover.CompositeTextHover.getHoverInfo2(CompositeTextHover.java:60)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+=======
+!ENTRY ch.qos.logback.classic 1 0 2025-11-25 09:34:34.961
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-11-25 09:34:50.939
+!MESSAGE Logback config file: /home/slarge/Documents/Workspace_SOA/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-11-25 09:40:09.970
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-11-25 09:40:09.971
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-11-25 09:40:09.973
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-11-25 09:40:09.975
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-11-25 09:40:09.981
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2025-11-25 09:40:09.985
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+>>>>>>> 2c9aca3190c9ef499ac909fc91850b6c71bf237f

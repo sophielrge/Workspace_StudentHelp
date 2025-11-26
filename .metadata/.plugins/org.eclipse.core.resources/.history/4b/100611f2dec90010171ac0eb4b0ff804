@@ -1,0 +1,17 @@
+package fr.insa.StudentHelp.StudentManager.mapper;
+
+import org.mapstruct.Mapper;
+import org.mapstruct.factory.Mappers;
+
+import fr.insa.StudentHelp.StudentManager.model.StudentEntity;
+import fr.insa.StudentHelp.StudentManager.model.StudentDTO;
+
+@Mapper(componentModel = "spring")
+public interface StudentMapper {
+
+    StudentMapper INSTANCE = Mappers.getMapper(StudentMapper.class);
+
+    StudentDTO toDTO(StudentEntity student);
+
+    StudentEntity toEntity(StudentDTO dto);
+}

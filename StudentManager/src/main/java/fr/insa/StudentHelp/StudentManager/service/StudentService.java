@@ -1,56 +1,47 @@
+
+package fr.insa.StudentHelp.StudentManager.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import fr.insa.StudentHelp.StudentManager.mapper.StudentMapper;
+import fr.insa.StudentHelp.StudentManager.model.StudentEntity;
+import fr.insa.StudentHelp.StudentManager.model.Student;
+import fr.insa.StudentHelp.StudentManager.repository.StudentRepository;
+
 @Service
 public class StudentService {
 
     @Autowired
     private StudentRepository repo;
+    
+    @Autowired
+    private StudentMapper mapper;
 
-    public Student save(Student s) {
-        return repo.save(s);
-    }
-
-    public StudentDTO saveDTO(StudentDTO dto) {
-        Student s = toEntity(dto);
-        Student saved = repo.save(s);
-        return toDTO(saved);
-    }
-
-    public List<Student> getAll() {
-        return repo.findAll();
-    }
-
-    public Optional<Student> get(Long id) {
-        return repo.findById(id);
-    }
 
     public void delete(Long id) {
         repo.deleteById(id);
     }
 
-    public StudentDTO toDTO(Student s) {
-        return new StudentDTO(
-                s.getId(),
-                s.getFirstname(),
-                s.getLastname(),
-                s.getEmail(),
-                s.getEstablishment(),
-                s.getField(),
-                s.getSkills(),
-                s.getAvailability(),
-                s.getRating()
-        );
+
+    public Student save(Student dto) {
+        StudentEntity s = mapper.toEntity(dto);
+        StudentEntity saved = repo.save(s);
+        return mapper.toDTO(saved);
     }
 
-    public Student toEntity(StudentDTO dto) {
-        Student s = new Student();
-        s.setId(dto.getId());
-        s.setFirstname(dto.getFirstname());
-        s.setLastname(dto.getLastname());
-        s.setEmail(dto.getEmail());
-        s.setEstablishment(dto.getEstablishment());
-        s.setField(dto.getField());
-        s.setSkills(dto.getSkills());
-        s.setAvailability(dto.getAvailability());
-        s.setRating(dto.getRating());
-        return s;
+    public List<Student> getAll() {
+        return repo.findAll().stream()
+                .map(mapper::toDTO)
+                .toList();
+    }
+
+    public Student get(Long id) {
+        return repo.findById(id)
+                   .map(mapper::toDTO)
+                   .orElse(null);
     }
 }
