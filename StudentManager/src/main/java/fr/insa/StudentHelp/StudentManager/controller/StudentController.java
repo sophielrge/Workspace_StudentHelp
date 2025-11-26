@@ -41,8 +41,15 @@ public class StudentController {
     public void delete(@PathVariable Long id) {
         service.delete(id);
     }
+    
     @PutMapping("/{id}")
     public Student update(@PathVariable Long id, @RequestBody Student student) {
         return service.update(id, student);
     }
+    
+    @PutMapping("/review/{id}")
+    public Student add_review(@PathVariable Long id, @RequestBody int review) {
+        return service.add_review(id, review);
+    }
+    
 }

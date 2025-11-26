@@ -3,3 +3,5 @@
 1764060970112	Delete element
 1764061973222	Rename type 'Student'
 1764061983061	Rename type 'StudentDTO'
+1764146735061	Encapsulate field 'counter, ...'
+1764146795005	Encapsulate field 'counter, ...'

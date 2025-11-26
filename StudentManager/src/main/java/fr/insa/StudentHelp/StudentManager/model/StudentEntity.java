@@ -27,6 +27,7 @@ public class StudentEntity {
     private List<String> availability;
 
     private double rating;
+    private int counter;
 
     public StudentEntity() {}
 
@@ -93,4 +94,12 @@ public class StudentEntity {
     public void setRating(double rating) {
         this.rating = rating;
     }
+
+	public int getCounter() {
+		return counter;
+	}
+
+	public void setCounter(int counter) {
+		this.counter = counter;
+	}
 }
