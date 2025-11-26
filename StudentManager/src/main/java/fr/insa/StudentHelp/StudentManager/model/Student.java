@@ -13,12 +13,13 @@ public class Student {
     private List<String> skills;
     private List<String> availability;
     private double rating;
+    private int counter;
 
     public Student() {}
 
     public Student(Long id, String lastname, String firstname, String email,
                       String speciality, List<String> skills,
-                      List<String> availability, double rating) {
+                      List<String> availability ) {
         this.id = id;
         this.lastname = lastname;
         this.firstname = firstname;
@@ -26,7 +27,8 @@ public class Student {
         this.speciality = speciality;
         this.skills = skills;
         this.availability = availability;
-        this.rating = rating;
+        this.rating = 0;
+        this.counter = 0;
     }
 
     public Long getId() { return id; }
@@ -52,4 +54,12 @@ public class Student {
 
     public double getRating() { return rating; }
     public void setRating(double rating) { this.rating = rating; }
+
+	public int getCounter() {
+		return counter;
+	}
+
+	public void setCounter(int counter) {
+		this.counter = counter;
+	}
 }

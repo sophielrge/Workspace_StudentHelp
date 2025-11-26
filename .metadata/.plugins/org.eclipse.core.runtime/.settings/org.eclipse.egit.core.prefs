@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 GitRepositoriesView.GitDirectories=/home/slarge/Documents/studentHelp/.git\:/home/boaglio/5A/SOA/Workspace_StudentHelp/.git\:
+=======
+GitRepositoriesView.GitDirectories=/home/slarge/Documents/studentHelp/.git\:/home/slarge/Documents/Workspace_SOA/.git\:
+>>>>>>> 0b1fe8a45c0c3474e86d61d661f4484b8c3e4029
 GitRepositoriesView.GitDirectories.relative=/home/slarge/Documents/studentHelp/.git\:.git\:
 eclipse.preferences.version=1

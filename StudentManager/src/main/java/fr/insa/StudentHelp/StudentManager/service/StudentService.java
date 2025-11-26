@@ -44,4 +44,33 @@ public class StudentService {
                    .map(mapper::toDTO)
                    .orElse(null);
     }
+    
+    public Student update(Long id, Student student) {
+        return repo.findById(id)
+            .map(entity -> {
+            	entity.setFirstname(student.getFirstname());
+            	entity.setLastname(student.getLastname());
+            	entity.setEmail(student.getEmail());
+            	entity.setSpeciality(student.getSpeciality());
+                entity.setSkills(student.getSkills());
+                entity.setAvailability(student.getAvailability());
+                entity.setRating(student.getRating());
+                entity.setCounter(student.getCounter());
+                return mapper.toDTO(repo.save(entity));
+            })
+            .orElse(null);
+    }
+    
+    public Student add_review(Long id, int review) {
+    	return repo.findById(id)
+                .map(entity -> {
+                	int new_counter = entity.getCounter()+1;
+                	double new_rate = (entity.getRating()*entity.getCounter()+review)/(new_counter);
+                	entity.setRating(new_rate);
+                	entity.setCounter(new_counter);
+                    return mapper.toDTO(repo.save(entity));
+                })
+                .orElse(null);
+    }
+
 }

@@ -1,1 +1,10 @@
-/target/
+# Eclipse
+.metadata/
+bin/
+*.class
+
+# Maven
+target/
+
+# Système
+.DS_Store
