@@ -46,11 +46,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>fr.insa.StudentHelp</groupId>
-			<artifactId>shDiscovery</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 		
 		<dependency>
     <groupId>org.springframework.boot</groupId>
@@ -71,16 +66,15 @@
 </dependency>
 
 <dependency>
-    	<groupId>com.mysql</groupId>
-    	<artifactId>mysql-connector-j</artifactId>
-    	<version>9.4.0</version>
-</dependency>
-
-<dependency>
     <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-starter-config</artifactId>
 </dependency>
 
+<dependency>
+    	<groupId>com.mysql</groupId>
+    	<artifactId>mysql-connector-j</artifactId>
+    	<version>9.4.0</version>
+</dependency>
 	</dependencies>
 	<dependencyManagement>
 <dependencies>
