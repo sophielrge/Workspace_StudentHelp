@@ -72,5 +72,11 @@ public class StudentService {
                 })
                 .orElse(null);
     }
+    
+    public Student getByEmail(String email) {
+        return repo.findByEmail(email)
+                .map(entity -> mapper.toDTO(entity))
+                .orElse(null);
+    }
 
 }

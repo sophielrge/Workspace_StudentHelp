@@ -52,4 +52,9 @@ public class StudentController {
         return service.add_review(id, review);
     }
     
+    @GetMapping("/by-email/{email}")
+    public Student getByEmail(@PathVariable String email) {
+        return service.getByEmail(email);
+    }
+    
 }

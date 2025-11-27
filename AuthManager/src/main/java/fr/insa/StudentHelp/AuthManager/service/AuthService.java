@@ -2,8 +2,10 @@ package fr.insa.StudentHelp.AuthManager.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
 
 import fr.insa.StudentHelp.AuthManager.mapper.UserMapper;
+import fr.insa.StudentHelp.AuthManager.model.Student;
 import fr.insa.StudentHelp.AuthManager.model.User;
 import fr.insa.StudentHelp.AuthManager.model.UserEntity;
 import fr.insa.StudentHelp.AuthManager.repository.AuthRepository;
@@ -16,6 +18,9 @@ public class AuthService {
 
     @Autowired
     private UserMapper mapper;
+    
+    @Autowired
+    private RestTemplate restTemplate;
 
     public User register(String email, String password) {
 
@@ -39,5 +44,28 @@ public class AuthService {
         }
 
         return mapper.toUser(user);
+    }
+    
+    public User changePassword(String email, String oldPassword, String newPassword) {
+
+        UserEntity user = repo.findByEmail(email)
+                .orElseThrow(() -> new RuntimeException("Utilisateur non trouvé"));
+
+        if (!user.getPassword().equals(oldPassword)) {
+            throw new RuntimeException("Ancien mot de passe incorrect");
+        }
+
+        user.setPassword(newPassword);
+
+        UserEntity updated = repo.save(user);
+
+        return mapper.toUser(updated);
+    }
+    
+    public Student getStudentInfo(String email) {
+
+        String url = "http://ConfigServer/student/by-email/" + email;
+
+        return restTemplate.getForObject(url, Student.class);
     }
 }
