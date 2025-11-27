@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import fr.insa.StudentHelp.RequestManager.model.Request;
 import fr.insa.StudentHelp.RequestManager.model.RequestEntity;
 import fr.insa.StudentHelp.RequestManager.model.Student;
+import fr.insa.StudentHelp.RequestManager.repository.RequestRepository;
 import fr.insa.StudentHelp.RequestManager.service.RequestService;
 
 @RestController
@@ -23,6 +24,9 @@ public class RequestController {
 
     @Autowired
     private RequestService service;
+    
+    @Autowired
+    private RequestRepository repo;
 
     @PostMapping
     public Map<String, Object> create(@RequestBody Request req) {
@@ -39,6 +43,18 @@ public class RequestController {
     @GetMapping
     public List<Request> getAll() {
         return service.getRepo().findAll();
+    }
+    
+    @GetMapping("/recommend/{id_user}/{id_request}")
+    public Map<String, Object> getRecommend(@PathVariable Long id_user, @PathVariable Long id_request) {
+    	 Request req = repo.findById(id_request).orElse(null);
+
+         List<Student> recommended = service.recommend(req);
+
+         return Map.of(
+                 "request", req,
+                 "recommended", recommended
+         );
     }
     
     
