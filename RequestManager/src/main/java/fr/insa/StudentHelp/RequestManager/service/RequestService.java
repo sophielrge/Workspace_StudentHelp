@@ -14,8 +14,9 @@ import fr.insa.StudentHelp.RequestManager.repository.RequestRepository;
 
 @Service
 public class RequestService {
-
-    private RestTemplate restTemplate = new RestTemplate();
+	
+	@Autowired
+    private RestTemplate restTemplate;
 
     @Autowired
     private RequestRepository repo;
