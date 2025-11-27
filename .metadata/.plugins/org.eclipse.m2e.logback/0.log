@@ -3744,3 +3744,314 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2025-11-26 11:43:12,784 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
 2025-11-26 11:43:12,785 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/slarge/Documents/Workspace_SOA/AuthManager/src/test/resources
 >>>>>>> 0b1fe8a45c0c3474e86d61d661f4484b8c3e4029
+2025-11-26 12:19:13,589 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-11-27 13:34:39,746 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-11-27 13:35:46,155 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:StudentManager:0.0.1-SNAPSHOT @ /home/boaglio/5A/SOA/Workspace_StudentHelp/StudentManager/pom.xml.
+2025-11-27 13:35:55,359 [Worker-4: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact fr.insa.StudentHelp:RequestManager:jar:sources:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-11-27 13:35:55,574 [Worker-4: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-config/4.3.0/spring-cloud-starter-config-4.3.0-sources.jar
+2025-11-27 13:35:55,595 [Worker-4: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework.cloud:spring-cloud-starter-config:4.3.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-config:jar:sources:4.3.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:282)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-11-27 13:35:55,745 [Worker-4: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-config-client/4.3.0/spring-cloud-config-client-4.3.0-sources.jar
+2025-11-27 13:35:55,785 [Worker-4: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-config-client/4.3.0/spring-cloud-config-client-4.3.0-sources.jar
+2025-11-27 13:35:55,803 [Worker-4: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.cloud:spring-cloud-config-client:4.3.0
+2025-11-27 13:35:55,894 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StudentManager/src/main/java
+2025-11-27 13:35:55,897 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StudentManager/src/main/resources
+2025-11-27 13:35:55,898 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StudentManager/src/main/resources
+2025-11-27 13:35:55,899 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StudentManager/src/test/java
+2025-11-27 13:35:55,901 [Worker-17: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StudentManager/src/test/resources
+2025-11-27 13:35:56,196 [Worker-17: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 22 sec
+2025-11-27 13:35:59,096 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT @ /home/boaglio/5A/SOA/Workspace_StudentHelp/shDiscovery/pom.xml.
+2025-11-27 13:36:02,105 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:StudentManager:0.0.1-SNAPSHOT @ /home/boaglio/5A/SOA/Workspace_StudentHelp/StudentManager/pom.xml.
+2025-11-27 13:36:02,991 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier  to /shDiscovery/target/classes
+2025-11-27 13:36:03,890 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /shDiscovery/src/main/java
+2025-11-27 13:36:03,890 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /shDiscovery/src/main/resources
+2025-11-27 13:36:03,902 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /shDiscovery/src/main/resources
+2025-11-27 13:36:03,912 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /shDiscovery/src/test/java
+2025-11-27 13:36:03,913 [Worker-6: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /shDiscovery/src/test/resources
+2025-11-27 13:36:04,195 [Worker-6: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2025-11-27 13:36:05,796 [Worker-13: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT @ /home/boaglio/5A/SOA/Workspace_StudentHelp/RequestManager/pom.xml.
+2025-11-27 13:36:08,380 [Worker-13: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier  to /shDiscovery/target/classes
+2025-11-27 13:36:09,573 [Worker-13: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:StudentManager:0.0.1-SNAPSHOT @ /home/boaglio/5A/SOA/Workspace_StudentHelp/StudentManager/pom.xml.
+2025-11-27 13:36:10,131 [Worker-13: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier  to /RequestManager/target/classes
+2025-11-27 13:36:10,132 [Worker-13: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier  to /shDiscovery/target/classes
+2025-11-27 13:36:12,951 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RequestManager/src/main/java
+2025-11-27 13:36:12,951 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RequestManager/src/main/resources
+2025-11-27 13:36:12,951 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RequestManager/src/main/resources
+2025-11-27 13:36:12,951 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RequestManager/src/test/java
+2025-11-27 13:36:12,952 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RequestManager/src/test/resources
+2025-11-27 13:36:13,109 [Worker-13: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 8 sec
+2025-11-27 13:36:13,550 [Worker-37: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-config/4.3.0/spring-cloud-starter-config-4.3.0-javadoc.jar
+2025-11-27 13:36:13,565 [Worker-37: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-config:4.3.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-config:jar:javadoc:4.3.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-11-27 13:36:15,702 [Worker-29: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:ConfigServer:0.0.1-SNAPSHOT @ /home/boaglio/5A/SOA/Workspace_StudentHelp/ConfigServer/pom.xml.
+2025-11-27 13:36:19,804 [Worker-29: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ConfigServer/src/main/java
+2025-11-27 13:36:19,804 [Worker-29: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ConfigServer/src/main/resources
+2025-11-27 13:36:19,804 [Worker-29: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ConfigServer/src/main/resources
+2025-11-27 13:36:19,804 [Worker-29: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ConfigServer/src/test/java
+2025-11-27 13:36:19,805 [Worker-29: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ConfigServer/src/test/resources
+2025-11-27 13:36:19,948 [Worker-29: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2025-11-27 13:36:20,926 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-27 13:36:20,947 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src/main/resources to target/classes
+2025-11-27 13:36:21,004 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/boaglio/5A/SOA/Workspace_StudentHelp/ConfigServer/src/test/resources
+2025-11-27 13:36:22,085 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-27 13:36:22,101 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-27 13:36:22,104 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/boaglio/5A/SOA/Workspace_StudentHelp/shDiscovery/src/test/resources
+2025-11-27 13:36:22,694 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-27 13:36:22,704 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-27 13:36:22,705 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/boaglio/5A/SOA/Workspace_StudentHelp/RequestManager/src/test/resources
+2025-11-27 13:36:24,682 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:ConfigClient:0.0.1-SNAPSHOT @ /home/boaglio/5A/SOA/Workspace_StudentHelp/ConfigClient/pom.xml.
+2025-11-27 13:36:26,529 [Worker-27: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ConfigClient/src/main/java
+2025-11-27 13:36:26,529 [Worker-27: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ConfigClient/src/main/resources
+2025-11-27 13:36:26,530 [Worker-27: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ConfigClient/src/main/resources
+2025-11-27 13:36:26,530 [Worker-27: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ConfigClient/src/test/java
+2025-11-27 13:36:26,531 [Worker-27: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ConfigClient/src/test/resources
+2025-11-27 13:36:26,647 [Worker-27: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2025-11-27 13:36:27,510 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-27 13:36:27,533 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-27 13:36:27,538 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/boaglio/5A/SOA/Workspace_StudentHelp/ConfigClient/src/test/resources
+2025-11-27 13:36:27,683 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-27 13:36:27,691 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-27 13:36:27,694 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/boaglio/5A/SOA/Workspace_StudentHelp/StudentManager/src/test/resources
+2025-11-27 13:36:27,905 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/cloud/spring-cloud-starter-config/5.0.0/spring-cloud-starter-config-5.0.0-javadoc.jar
+2025-11-27 13:36:27,916 [Worker-11: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.springframework.cloud:spring-cloud-starter-config:5.0.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.cloud:spring-cloud-starter-config:jar:javadoc:5.0.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$7(MavenImpl.java:540)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:292)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:509)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:494)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:308)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:294)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:252)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:220)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.embedder.IMaven.execute(IMaven.java:300)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-11-27 13:36:37,168 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:AuthManager:0.0.1-SNAPSHOT @ /home/boaglio/5A/SOA/Workspace_StudentHelp/AuthManager/pom.xml.
+2025-11-27 13:36:39,993 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AuthManager/src/main/java
+2025-11-27 13:36:39,993 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AuthManager/src/main/resources
+2025-11-27 13:36:39,994 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AuthManager/src/main/resources
+2025-11-27 13:36:39,994 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AuthManager/src/test/java
+2025-11-27 13:36:39,995 [Worker-4: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AuthManager/src/test/resources
+2025-11-27 13:36:40,204 [Worker-4: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2025-11-27 13:36:41,073 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-27 13:36:41,083 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-27 13:36:41,085 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/boaglio/5A/SOA/Workspace_StudentHelp/AuthManager/src/test/resources
+2025-11-27 13:36:54,818 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-27 13:36:54,831 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-27 13:36:54,833 [Worker-3: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/boaglio/5A/SOA/Workspace_StudentHelp/shDiscovery/src/test/resources
+2025-11-27 13:36:59,469 [Worker-4: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM /home/boaglio/5A/SOA/Workspace_StudentHelp/shDiscovery/bin/pom.xml: unexpected character in markup < (position: START_TAG seen ...<dependency>\n<<... @35:3)  @ line 35, column 3
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM /home/boaglio/5A/SOA/Workspace_StudentHelp/shDiscovery/bin/pom.xml: unexpected character in markup < (position: START_TAG seen ...<dependency>\n<<... @35:3)  @ line 35, column 3
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:140)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:943)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:219)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-11-27 13:39:00,716 [Worker-40: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM /home/boaglio/5A/SOA/Workspace_StudentHelp/shDiscovery/bin/pom.xml: end tag name </dependency> must match start tag name <dependencies> from line 33 (position: TEXT seen ...</artifactId>\n\t\t\t</dependency>... @41:17)  @ line 41, column 17
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM /home/boaglio/5A/SOA/Workspace_StudentHelp/shDiscovery/bin/pom.xml: end tag name </dependency> must match start tag name <dependencies> from line 33 (position: TEXT seen ...</artifactId>\n\t\t\t</dependency>... @41:17)  @ line 41, column 17
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:140)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:943)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:219)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-11-27 13:39:01,177 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-27 13:39:01,178 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-27 13:39:01,181 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/boaglio/5A/SOA/Workspace_StudentHelp/shDiscovery/src/test/resources
+2025-11-27 13:39:22,971 [Worker-2: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM /home/boaglio/5A/SOA/Workspace_StudentHelp/shDiscovery/bin/pom.xml: Duplicated tag: 'dependencies' (position: START_TAG seen ...</dependencyManagement>\n\n<dependencies>... @68:15)  @ line 68, column 15
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM /home/boaglio/5A/SOA/Workspace_StudentHelp/shDiscovery/bin/pom.xml: Duplicated tag: 'dependencies' (position: START_TAG seen ...</dependencyManagement>\n\n<dependencies>... @68:15)  @ line 68, column 15
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:140)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:943)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:219)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-11-27 13:39:23,083 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-27 13:39:23,085 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-27 13:39:23,088 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/boaglio/5A/SOA/Workspace_StudentHelp/shDiscovery/src/test/resources
+2025-11-27 13:40:01,125 [Worker-35: reload maven project] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM /home/boaglio/5A/SOA/Workspace_StudentHelp/shDiscovery/bin/pom.xml: end tag name </dependencyManagement> must match start tag name <project> from line 2 (position: TEXT seen ...</dependencyManagement>\n</dependencyManagement>... @67:24)  @ line 67, column 24
+
+org.apache.maven.project.ProjectBuildingException: Some problems were encountered while processing the POMs:
+[FATAL] Non-parseable POM /home/boaglio/5A/SOA/Workspace_StudentHelp/shDiscovery/bin/pom.xml: end tag name </dependencyManagement> must match start tag name <project> from line 2 (position: TEXT seen ...</dependencyManagement>\n</dependencyManagement>... @67:24)  @ line 67, column 24
+
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readMavenProjects(IMavenToolbox.java:140)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:943)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectsWithDependencies(ProjectRegistryManager.java:939)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:219)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:105)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:239)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:709)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$4.run(MavenPomEditor.java:1029)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2025-11-27 13:40:02,197 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-27 13:40:02,198 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-27 13:40:02,201 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/boaglio/5A/SOA/Workspace_StudentHelp/shDiscovery/src/test/resources
+2025-11-27 13:40:09,194 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-27 13:40:09,195 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-27 13:40:09,196 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/boaglio/5A/SOA/Workspace_StudentHelp/shDiscovery/src/test/resources
+2025-11-27 13:40:12,518 [Worker-22: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier  to /RequestManager/target/classes
+2025-11-27 13:40:12,602 [Worker-22: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier  to /shDiscovery/target/classes
+2025-11-27 13:40:15,829 [Worker-22: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier  to /RequestManager/target/classes
+2025-11-27 13:40:15,898 [Worker-22: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier  to /shDiscovery/target/classes
+2025-11-27 13:40:52,588 [Worker-20: Launching RequestManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:40:52,737 [Worker-20: Launching RequestManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:40:52,927 [Worker-20: Launching RequestManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:41:43,001 [Worker-4: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:41:43,002 [Worker-4: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:41:43,195 [Worker-4: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:41:43,196 [Worker-4: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:41:43,345 [Worker-4: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:41:43,345 [Worker-4: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:45:01,296 [Worker-31: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:StudentManager:0.0.1-SNAPSHOT @ /home/boaglio/5A/SOA/Workspace_StudentHelp/StudentManager/pom.xml.
+2025-11-27 13:45:03,660 [Worker-31: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier  to /RequestManager/target/classes
+2025-11-27 13:45:03,660 [Worker-31: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier  to /shDiscovery/target/classes
+2025-11-27 13:45:04,168 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-27 13:45:04,169 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-27 13:45:04,171 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/boaglio/5A/SOA/Workspace_StudentHelp/StudentManager/src/test/resources
+2025-11-27 13:45:05,193 [Worker-19: Launching StudentManagerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-27 13:45:05,197 [Worker-19: Launching StudentManagerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-27 13:45:05,200 [Worker-19: Launching StudentManagerApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/boaglio/5A/SOA/Workspace_StudentHelp/StudentManager/src/test/resources
+2025-11-27 13:45:05,501 [Worker-19: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:45:05,501 [Worker-19: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:45:05,644 [Worker-19: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:45:05,645 [Worker-19: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:45:05,812 [Worker-19: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:45:05,813 [Worker-19: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:45:24,682 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-11-27 13:45:25,907 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: fr.insa.StudentHelp:StudentManager:0.0.1-SNAPSHOT @ /home/boaglio/5A/SOA/Workspace_StudentHelp/StudentManager/pom.xml.
+2025-11-27 13:45:28,389 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier  to /RequestManager/target/classes
+2025-11-27 13:45:28,389 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier  to /shDiscovery/target/classes
+2025-11-27 13:45:28,840 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StudentManager/src/main/java
+2025-11-27 13:45:28,841 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StudentManager/src/main/resources
+2025-11-27 13:45:28,841 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StudentManager/src/main/resources
+2025-11-27 13:45:28,841 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /StudentManager/src/test/java
+2025-11-27 13:45:28,841 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /StudentManager/src/test/resources
+2025-11-27 13:45:29,118 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 4,00 sec, update config takes 0,00 sec 
+2025-11-27 13:45:29,596 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-27 13:45:29,603 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-27 13:45:29,606 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/boaglio/5A/SOA/Workspace_StudentHelp/StudentManager/src/test/resources
+2025-11-27 13:45:42,030 [Worker-31: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:45:42,030 [Worker-31: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:45:42,117 [Worker-31: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:45:42,118 [Worker-31: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:45:42,220 [Worker-31: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:45:42,220 [Worker-31: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:47:10,588 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-11-27 13:47:10,618 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2025-11-27 13:47:10,628 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /home/boaglio/5A/SOA/Workspace_StudentHelp/StudentManager/src/test/resources
+2025-11-27 13:47:16,997 [Worker-31: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:47:16,997 [Worker-31: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:47:17,169 [Worker-31: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:47:17,169 [Worker-31: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:47:17,335 [Worker-31: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:47:17,336 [Worker-31: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:48:29,254 [Worker-30: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:48:29,255 [Worker-30: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:48:29,455 [Worker-30: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:48:29,455 [Worker-30: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:48:29,613 [Worker-30: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:48:29,614 [Worker-30: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:53:36,410 [Worker-31: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:53:36,412 [Worker-31: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:53:36,577 [Worker-31: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:53:36,586 [Worker-31: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:53:36,712 [Worker-31: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:53:36,712 [Worker-31: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:54:13,553 [Worker-19: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:54:13,554 [Worker-19: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:54:13,713 [Worker-19: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:54:13,713 [Worker-19: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes
+2025-11-27 13:54:13,912 [Worker-19: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/RequestManager: fr.insa.StudentHelp:RequestManager:0.0.1-SNAPSHOT with classifier null to /RequestManager/target/classes
+2025-11-27 13:54:13,913 [Worker-19: Launching StudentManagerApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/shDiscovery: fr.insa.StudentHelp:shDiscovery:0.0.1-SNAPSHOT with classifier null to /shDiscovery/target/classes

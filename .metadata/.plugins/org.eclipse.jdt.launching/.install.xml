@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <entry loc="/usr/local/insa/eclipse/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_22.0.2.v20240802-1626/jre" stamp="1753367459444"/>
-    <entry loc="/usr/local/insa/eclipse/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_22.0.2.v20240802-1626" stamp="1753367117707"/>
-    <entry loc="/usr/lib/jvm/java-21-openjdk-amd64" stamp="1764034877011"/>
-=======
-    <entry loc="/usr/local/insa/eclipse/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_22.0.2.v20240802-1626/jre" stamp="1753367536580"/>
-    <entry loc="/usr/local/insa/eclipse/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_22.0.2.v20240802-1626" stamp="1753367117707"/>
-    <entry loc="/usr/lib/jvm/java-21-openjdk-amd64" stamp="1756999565817"/>
->>>>>>> 2c9aca3190c9ef499ac909fc91850b6c71bf237f
-=======
-    <entry loc="/usr/local/insa/eclipse/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_22.0.2.v20240802-1626/jre" stamp="1753367117723"/>
-    <entry loc="/usr/local/insa/eclipse/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_22.0.2.v20240802-1626" stamp="1753367117707"/>
-    <entry loc="/usr/lib/jvm/java-21-openjdk-amd64" stamp="1764025110417"/>
->>>>>>> 0b1fe8a45c0c3474e86d61d661f4484b8c3e4029
+    <entry loc="/usr/local/insa/eclipse/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_22.0.2.v20240802-1626/jre" stamp="1753367491061"/>
+    <entry loc="/usr/lib/jvm/java-21-openjdk-amd64" stamp="1764031428645"/>
 </dirs>

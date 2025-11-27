@@ -1,22 +1,40 @@
 package fr.insa.StudentHelp.RequestManager.model;
+
+import jakarta.persistence.*;
 import java.util.List;
 
-import fr.insa.StudentHelp.RequestManager.model.Request;
-
+@Entity
+@Table(name = "requests")
 public class Request {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @Column(nullable = false)
     private String title;
+
+    @Column(columnDefinition = "TEXT")
     private String description;
+
+    @Column(name = "requester_id", nullable = false)
     private Long requesterId;
+
     private String date;
+
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
     private Status status;
+
+    @ElementCollection
+    @CollectionTable(name = "request_keywords", joinColumns = @JoinColumn(name = "request_id"))
+    @Column(name = "keyword")
     private List<String> keywords;
 
     public Request() {}
 
     public Request(Long id, String title, String description, Long requesterId,
-                      String date, Status status, List<String> keywords) {
+                   String date, Status status, List<String> keywords) {
         this.id = id;
         this.title = title;
         this.description = description;
@@ -25,7 +43,7 @@ public class Request {
         this.status = status;
         this.keywords = keywords;
     }
-    
+
     public enum Status {
         WAITING,
         IN_PROGRESS,
@@ -34,8 +52,7 @@ public class Request {
         CLOSED
     }
 
-    // Getters & setters
-
+    // Getters & Setters
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
