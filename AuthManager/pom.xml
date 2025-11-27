@@ -51,6 +51,7 @@
 		</dependency>
 		
 		<dependency>
+<<<<<<< HEAD
     <groupId>org.mapstruct</groupId>
     <artifactId>mapstruct</artifactId>
     <version>1.5.5.Final</version>
@@ -78,11 +79,19 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 			</dependency>
+=======
+		    	<groupId>com.mysql</groupId>
+		    	<artifactId>mysql-connector-j</artifactId>
+		    	<version>9.4.0</version>
+		</dependency>
+		
+>>>>>>> 5d0ab23c6a8a90b704627d5bc9aa3bd0222a0b17
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 		
+<<<<<<< HEAD
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -103,6 +112,25 @@
 </dependency>
 </dependencies>
 </dependencyManagement>
+=======
+		<dependency>
+		    <groupId>org.springframework.cloud</groupId>
+		    <artifactId>spring-cloud-starter-config</artifactId>
+		</dependency>
+	</dependencies>
+	
+	<dependencyManagement>
+		<dependencies>
+		<dependency>
+		<groupId>org.springframework.cloud</groupId>
+		<artifactId>spring-cloud-dependencies</artifactId>
+		<version>${spring-cloud.version}</version>
+		<type>pom</type>
+		<scope>import</scope>
+		</dependency>
+		</dependencies>
+	</dependencyManagement>
+>>>>>>> 5d0ab23c6a8a90b704627d5bc9aa3bd0222a0b17
 
 	<build>
 		<plugins>

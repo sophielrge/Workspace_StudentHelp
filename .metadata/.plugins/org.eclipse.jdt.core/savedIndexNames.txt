@@ -1,4 +1,5 @@
 INDEX VERSION 1.134+/home/slarge/Documents/Workspace_SOA/.metadata/.plugins/org.eclipse.jdt.core
+<<<<<<< HEAD
 481122254.index
 829192462.index
 1207453673.index
@@ -94,3 +95,23 @@ INDEX VERSION 1.134+/home/slarge/Documents/Workspace_SOA/.metadata/.plugins/org.
 258177642.index
 2363296234.index
 803764925.index
+=======
+2427635622.index
+1440603357.index
+1452568444.index
+3542922685.index
+820461650.index
+1865797976.index
+258177642.index
+829192462.index
+3858601964.index
+2218813618.index
+274915481.index
+900586112.index
+489645709.index
+915176442.index
+3099589041.index
+1342339348.index
+684173214.index
+3046695092.index
+>>>>>>> 5d0ab23c6a8a90b704627d5bc9aa3bd0222a0b17

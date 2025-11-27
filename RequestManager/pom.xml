@@ -66,15 +66,27 @@
 </dependency>
 
 <dependency>
+<<<<<<< HEAD
     <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-starter-config</artifactId>
 </dependency>
 
 <dependency>
+=======
+>>>>>>> 5d0ab23c6a8a90b704627d5bc9aa3bd0222a0b17
     	<groupId>com.mysql</groupId>
     	<artifactId>mysql-connector-j</artifactId>
     	<version>9.4.0</version>
 </dependency>
+<<<<<<< HEAD
+=======
+
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-config</artifactId>
+</dependency>
+
+>>>>>>> 5d0ab23c6a8a90b704627d5bc9aa3bd0222a0b17
 	</dependencies>
 	<dependencyManagement>
 <dependencies>
