@@ -21,7 +21,7 @@ public class RequestService {
     @Autowired
     private RequestRepository repo;
 
-    private final String STUDENT_SERVICE_URL = "http://ConfigServer/students";
+    private final String STUDENT_SERVICE_URL = "http://StudentManager/students";
 
     public Request save(Long id_user, Request req) {
     	req.setRequesterId(id_user);       

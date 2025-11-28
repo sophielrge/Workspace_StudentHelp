@@ -54,8 +54,6 @@ public class StudentService {
             	entity.setSpeciality(student.getSpeciality());
                 entity.setSkills(student.getSkills());
                 entity.setAvailability(student.getAvailability());
-                entity.setRating(student.getRating());
-                entity.setCounter(student.getCounter());
                 return mapper.toDTO(repo.save(entity));
             })
             .orElse(null);

@@ -64,7 +64,7 @@ public class AuthService {
     
     public Student getStudentInfo(String email) {
 
-        String url = "http://ConfigServer/student/by-email/" + email;
+        String url = "http://StudentManager/students/by-email/" + email;
 
         return restTemplate.getForObject(url, Student.class);
     }
