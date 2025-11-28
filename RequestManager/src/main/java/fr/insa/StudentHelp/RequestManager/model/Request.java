@@ -33,6 +33,16 @@ public class Request {
 
     public Request() {}
 
+    
+    public Request(String title, String description,
+            String date, Status status, List<String> keywords) {
+		 this.title = title;
+		 this.description = description;
+		 this.date = date;
+		 this.status = status;
+		 this.keywords = keywords;
+	}
+    
     public Request(Long id, String title, String description, Long requesterId,
                    String date, Status status, List<String> keywords) {
         this.id = id;

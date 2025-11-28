@@ -21,10 +21,11 @@ public class RequestService {
     @Autowired
     private RequestRepository repo;
 
-    private final String STUDENT_SERVICE_URL = "http://StudentManager/students";
+    private final String STUDENT_SERVICE_URL = "http://ConfigServer/students";
 
-    public Request save(Request req) {
-        return getRepo().save(req);
+    public Request save(Long id_user, Request req) {
+    	req.setRequesterId(id_user);       
+    	return getRepo().save(req);
     }
 
     public List<Student> getAllStudents() {
@@ -32,7 +33,7 @@ public class RequestService {
         return Arrays.asList(students);
     }
 
-    public List<Student> recommend(Request req) {
+    public List<Student> recommend( Request req) {
         List<Student> all = getAllStudents();
         return all.stream()
                 .filter(s -> s.getSkills().stream()

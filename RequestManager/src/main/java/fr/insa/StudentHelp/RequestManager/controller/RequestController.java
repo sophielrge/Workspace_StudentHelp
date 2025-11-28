@@ -24,9 +24,9 @@ public class RequestController {
     @Autowired
     private RequestService service;
 
-    @PostMapping
-    public Map<String, Object> create(@RequestBody Request req) {
-        Request saved = service.save(req);
+    @PostMapping("/{id_user}")
+    public Map<String, Object> create(@PathVariable Long id_user, @RequestBody Request req) {
+        Request saved = service.save(id_user, req);
 
         List<Student> recommended = service.recommend(req);
 
