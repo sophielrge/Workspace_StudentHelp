@@ -47,9 +47,14 @@ public class StudentController {
         return service.update(id, student);
     }
     
-    @PutMapping("/review/{id}")
-    public Student add_review(@PathVariable Long id, @RequestBody int review) {
+    @PutMapping("/review/{id}/{review}")
+    public Student add_review(@PathVariable Long id, @PathVariable int review) {
         return service.add_review(id, review);
+    }
+    
+    @GetMapping("/by-email/{email}")
+    public Student getByEmail(@PathVariable String email) {
+        return service.getByEmail(email);
     }
     
 }
