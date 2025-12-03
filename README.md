@@ -4,11 +4,67 @@
 
 
 Nous avons 5 microservices : 
-- *StudentManager* : Il permet de gérer tout ce qui se réfère à l'étudiant. On peut créer un nouvel étudiant, modifier ses informations, avoir la liste de tous les étudiants. De plus, ce service s'occupe aussi de l'ajout des notes par d'autres étudiants (afin de donner un avis suite à une aide). Il utilise la table Student de notre base de données.
-- *RequesManager*: Il permet de gérer tout ce qui se réfère aux demandes d'aides. On peut créer une demande, avoir une recommandation d'étudiants pour une demande donnée ou avoir la liste de toutes les demandes. Lorsque l'on recommande un étudiant, le service RequestManager envoie un GET au service StudentManager afin de récupérer les informations nécessaires. Il utilise la table Request de notre base de données.
-- *AuthManager* : Il gére tout ce qui touche à l'authentification. On peut s'enregistrer, se connecter, changer son mot de passe ou encore récupérer les infoemations étudiantes associées à ce compte. Pour cela, le service AuthManager envoie une requête GET avec l'adresse mail de l'utilisateur, à StudentManager, qui cherche dans la base de donnée s'il y a un étudiant  avec cette adresse mail. Ce service utilise la table User de la base de donnée. Nous utilisons deux classes user : UserEntity et User, pour cacher le mot de passe aux utilisateurs.
-- *CondifServer* :
-- *shDiscovery* :
 
-voici le lien de notre dépôt gitHub pour nos configurations : https://github.com/sophielrge/StudentHelpConfig.git
+### **1. StudentManager**
+Le service **StudentManager** permet de gérer tout ce qui se réfère aux étudiants.
 
+**Fonctionnalités :**
+- Création d’un nouvel étudiant  
+- Modification des informations d’un étudiant  
+- Récupération de la liste de tous les étudiants  
+- Ajout de notes entre étudiants (avis après une aide)
+
+**Base de données :**
+- Table *Student*
+
+
+### **2. RequestManager**
+Le service **RequestManager** gère les demandes d’aide.
+
+**Fonctionnalités :**
+- Création d’une demande  
+- Récupération de toutes les demandes  
+- Recommandation d’étudiants pour une demande donnée  
+
+Pour effectuer une recommandation, **RequestManager** envoie une requête GET à **StudentManager** afin de récupérer les informations nécessaires.
+
+**Base de données :**
+- Table *Request*
+
+### **3. AuthManager**
+Le service **AuthManager** gère toute la partie authentification.
+
+**Fonctionnalités :**
+- Inscription  
+- Connexion  
+- Changement de mot de passe  
+- Récupération des informations de l’étudiant associé à un compte utilisateur  
+
+Pour cela, AuthManager envoie une requête GET avec l'adresse mail de l'utilisateur à **StudentManager** pour vérifier qu’un étudiant existe avec cette adresse.
+
+**Base de données :**
+- Table *User*
+
+Deux classes sont utilisées :
+- *UserEntity* : entité stockée en base (mot de passe inclus)  
+- *User* : DTO exposé aux utilisateurs (mot de passe masqué)
+
+### **4. ConfigServer**
+Le **ConfigServer** centralise l’ensemble des fichiers de configuration des microservices.
+
+**Rôle :**
+- Fournir la configuration à chaque microservice au démarrage  
+- Gérer plusieurs environnements (default et dev)  
+- Permettre la mise à jour dynamique (Spring Cloud Config)
+
+Il utilise un dépôt Git externe contenant tous les fichiers *.properties* .
+Dépôt gitHub de configuration :  
+*https://github.com/sophielrge/StudentHelpConfig.git*
+
+### **5. shDiscovery (Eureka Server)**
+Le service **shDiscovery** est le serveur Eureka utilisé pour l’enregistrement et la découverte des microservices.
+
+**Rôle :**
+- Enregistrement automatique des services au démarrage  
+- Découverte dynamique des services (Service Discovery)  
+- Facilite la résilience et la communication entre microservices  
